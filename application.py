@@ -42,4 +42,4 @@ def predict_emotion():
     return label_encoder.classes_[np.argmax(predicti)]
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
