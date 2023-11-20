@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'EmotionalClassifier'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6298986695E54D26B9A4DFBCEA2DB230 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A735F8906DE14C0DBB8AA48396BFB8CD }}
