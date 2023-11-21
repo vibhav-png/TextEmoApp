@@ -20,7 +20,7 @@ sent_length = 1
 with open('test_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-application = Flask(__name__, template_folder='Templates')
+application = Flask(__name__)
 app = application
 
 @app.route('/')
